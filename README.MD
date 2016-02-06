@@ -1,11 +1,11 @@
-#first window
-cd mapkeeper
+#startup stubserver
+cd mapkeeper	
 make
 
-cd bin
+cd bin	
 make run mode=disruptor
 
-#second window
-cd mapkeeper
+#startup client
+cd mapkeeper	
 ./bin/ycsb load mapkeeper -P ../workloads/workloada
 
