@@ -9,6 +9,6 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>thrift</module>
+        <module>mapkeeper</module>
     </modules>
 </project>

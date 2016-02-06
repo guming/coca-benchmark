@@ -27,7 +27,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="coca_benchmark" target="1.5" />
-      <module name="thrift" target="1.6" />
+      <module name="mapkeeper" target="1.7" />
+      <module name="thrift" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

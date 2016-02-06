@@ -1,3 +1,0 @@
-Main-Class: StubServer
-Class-Path: ../lib/libthrift.jar  ../lib/mapkeeper.jar  ../lib/slf4j-api.jar \
-            ../lib/slf4j-log4j12.jar ../lib/log4j.jar
