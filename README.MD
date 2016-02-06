@@ -25,6 +25,9 @@ cd mapkeeper
 ./bin/ycsb load mapkeeper -P ../workloads/workloada
 
 ##Redis performance
+used redis4j	
+https://github.com/guming/redis4j
+
 OVERALL], RunTime(ms), 1374.0	
 [OVERALL], Throughput(ops/sec), 7278.020378457059	
 [CLEANUP], Operations, 1.0	
