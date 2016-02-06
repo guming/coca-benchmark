@@ -24,10 +24,25 @@
         <processorPath useClasspath="true" />
         <module name="thrift" />
       </profile>
+      <profile default="false" name="Annotation profile for mapkeeper" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="mapkeeper" />
+      </profile>
+      <profile default="false" name="Annotation profile for redisdb" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="redisdb" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="coca_benchmark" target="1.5" />
       <module name="mapkeeper" target="1.7" />
+      <module name="redisdb" target="1.7" />
       <module name="thrift" target="1.7" />
     </bytecodeTargetLevel>
   </component>

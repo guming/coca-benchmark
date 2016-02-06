@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/coca_benchmark.iml" filepath="$PROJECT_DIR$/coca_benchmark.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapkeeper/mapkeeper.iml" filepath="$PROJECT_DIR$/mapkeeper/mapkeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redisdb/redisdb.iml" filepath="$PROJECT_DIR$/redisdb/redisdb.iml" />
     </modules>
   </component>
 </project>
