@@ -9,8 +9,8 @@ make run mode=threadpool    # run TThreadPoolServer
 make run mode=nonblocking   # run TNonblockingServer	
 make run mode=hsha          # run THsHaServer	
 make run mode=selector      # run TThreadedSelectorServer		
-make run mode=disruptor      # run TDisruptorServer	
-about DisruptorServer
+make run mode=disruptor      # run TDisruptorServer		
+about the DisruptorServer	
 https://github.com/xedin/disruptor_thrift_server
 
 ###startup stubserver
